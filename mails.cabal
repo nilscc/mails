@@ -1,0 +1,22 @@
+Name:                mails
+Version:             0.1
+Synopsis:            Simple mail reader
+
+License:             BSD3
+License-file:        LICENSE
+Author:              Nils Schweinsberg
+Maintainer:          mail@n-sch.de
+Category:            Network
+
+Build-type:          Simple
+Cabal-version:       >= 1.8
+
+Library
+
+    GHC-Options:        -Wall
+    HS-Source-Dirs:     src-lib
+
+    Build-Depends:
+        base == 4.*
+
+    Exposed-modules:
